@@ -1,0 +1,15 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+function HomePage() {
+  return (
+    <div className="jumbotron">
+      <h2> Hello Course!</h2>
+      <Link to="/about" className="btn btn-primary">
+        About
+      </Link>
+    </div>
+  );
+}
+
+export default HomePage;
